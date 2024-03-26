@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semanyk Mariya</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    
+   <div class="calendar">
+      <div class="left-side">
+          <h1 id="selected-day">
+          
+          </h1>
+          <div id="day-of-week">
+          Monday
+          </div>
+      
+       <div class="current-day-events">
+       <h6> Current Events: </h6>
+           <ul class="current-day-events-list" id="eventsList">
+               <li id="noEvents">There is not any events.</li>
+           </ul>
+           
+       </div>
+       <div>
+       <input type="text" class="add-event-day-field" id="customText" placeholder="Create an Event">
+             <img src="images/plus.png" id="add-note-but" > 
+              
+              </div>
+       
+        </div>
+       
+       
+       <div class="right-side">
+       
+           <div class="calendar-info">
+            <div class="calendar-prev" id="prev-month"><img src="images/back.png" class="month-movement previous" width="30px"></div>
+            <div class="calendar-month" id="month"></div>
+            <div class="calendar-year" id="year"> </div>
+            <div class="calendar-next" id="next-month"><img src="images/next.png" class="month-movement next" width="30px"></div>
+           </div>
+           
+           <div class="week">
+               <div class="day">Mon</div>
+               <div class="day">Tue</div>
+               <div class="day">Wed</div>
+               <div class="day">Thu</div>
+               <div class="day">Fri</div>
+               <div class="day">Sat</div>
+               <div class="day">Sun</div>
+           </div>
+           <div class="calendar-dates" id="dates">
+           
+           </div>
+       </div>
+       
+    </div> 
+    
+    
+  <script src="script.js"></script>  
+</body>
+</html>
